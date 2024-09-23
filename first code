@@ -26,13 +26,6 @@ class Main {
             System.out.println();
      }
      
-     System.out.println("\n");
-     
-     for(int row=1; row < n; row++){
-         for(int st=1; st < n; st++){
-             System.out.printf("* ");
-         }  
-         System.out.println();
      }
      
      
