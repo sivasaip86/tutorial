@@ -1,0 +1,40 @@
+class Main {
+    public static void main(String[] args) {
+        int n = 5;
+     for(int row = 1; row < n; row++){ // square pattern
+         for(int st = 1; st < n ; st++){
+            System.out.print("* ");
+     }
+            System.out.println();
+     }
+     
+      System.out.println("\n");
+     
+     for(int row = 1; row < n; row++){
+         for(int st = 1; st < row + 1 ; st++){ // right triagled pattern
+            System.out.print("* ");
+     }
+            System.out.println();
+     }
+     
+          System.out.println("\n");
+          
+      for(int row=1; row < n; row += 1){
+         for(int st = 1; st < n - 1 * row + 1 ; st++){ // reverse right triagled pattern
+            System.out.print("* ");
+     }
+            System.out.println();
+     }
+     
+     System.out.println("\n");
+     
+     for(int row=1; row < n; row++){
+         for(int st=1; st < n; st++){
+             System.out.printf("* ");
+         }  
+         System.out.println();
+     }
+     
+     
+    }
+    }
